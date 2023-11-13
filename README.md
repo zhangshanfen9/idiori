@@ -2,10 +2,10 @@
 This repository provides the artifacts about the paper:
 
 ## All measurement datas
-- Avaliable at: https://drive.google.com/file/d/12PM8Kk7Grk34svMG9MbveTna9DOtFkPb/view?usp=sharing
+- Avaliable at: https://drive.google.com/file/d/13NLU6Uzther4V6GROQJm5oquSn8BnGIs/view?usp=sharing
 - We organized all data into a csv file by using Python Pandas.
 - Each colnum represents:
-    - proxy_ip_address: the IP address of our vantage point
+    - proxy_ip_address: the IP address of our vantage point.
     - ASN: the ASN of our vantage point
     - ISP: the ISP address of our vantage point (T: Telecom, U: Unicom, M: Mobile, E: Tencent, A: Alibaba, C: CERNET)
     - target: the target in which we sent this query 
@@ -14,6 +14,7 @@ This repository provides the artifacts about the paper:
     - answer: the answer we received
     - province: the province of our vantage point
     - city: the city of our vantage point
+- For ethical considerations, we anonymized the IP address of a vantage point, an exit node of proxy services. Also, we only kept the last and penultimate hops of traceroute result to avoid exposing such exit nodes.
 
 ## Source codes of our measurment
 - We established our measurement platform manually. For example, installing operating system and installing VPN software on each machine. Almost no coding in this process.
